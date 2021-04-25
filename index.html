@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', Arial;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        
+
+        background: url('img/bg8.jpg');
+        background-size: 1200px auto;
+        background-position: top center;
+
+
+
+    }
+
+    .left {
+
+        display: inline-block;
+        /*border: 2px solid red;*/
+        position: absolute;
+        top: 15px;
+        left: 60px;
+        font-size: 15px;
+
+    }
+
+    .left img {
+        width: 102px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+
+
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 12px auto;
+        /*border: 2px solid yellow;*/
+
+
+    }
+
+    .right {
+        /*border: 2px solid green;*/
+        position: absolute;
+        right: 34px;
+        display: inline-block;
+        top: 25px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: auto;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 15px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: none;
+        padding: 15px 15px;
+        font-size: 20px;
+        text-decoration: underline;
+        color: hotpink
+    }
+
+    .btn {
+
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 120px 72px;
+        padding: 50px 50px;
+        width: 36%;
+        border-radius: 15px;
+    }
+
+    .formgroup input {
+        font-family: 'Baloo Bhai', Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 5px;
+        border: 3px solid black;
+        margin: 7px auto;
+        font-size: 15px;
+        border-radius: 8px;
+
+    }
+
+    .container h3 {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .container button {
+        display: block;
+        width: 86%;
+        margin: auto;
+
+
+
+    }
+</style>
+
+
+<body>
+    <header class="header">
+        <!-- left for -->
+
+        <div class="left">
+            <img src="img/gymg1.jpg" alt="">
+            <div>Gaurav Fitness </div>
+        </div>
+        <!-- middel for-->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness </a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </div>
+        <!-- right for -->
+
+        <div class="right">
+            <Button class="btn">Contact Us</Button>
+            <Button class="btn">Email Us</Button>
+        </div>
+    </header>
+    <div class="container">
+        <h3> Join the best Gym in Nichlaul now</h3>
+        <form action="nobackend.php">
+            <div class="formgroup">
+
+                <input type="text" name="" id="" placeholder="Enter your Name">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Email id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Contact Number">
+            </div>
+            <Button class="btn"> Submit now </Button>
+        </form>
+    </div>
+</body>
+
+</html>
